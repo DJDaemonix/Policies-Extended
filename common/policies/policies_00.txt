@@ -1,0 +1,57 @@
+##########################################################################
+# Empire Policies
+#
+# #####
+#
+# AI:
+# Base AI-weight is 100, if unchanged
+# AI will grab whatever policy-option has the highest weight
+#
+# #####
+#
+##########################################################################
+
+birth_control_policy = {
+
+    option = {
+        name = "growth_total_halt"
+        
+        policy_flags = {growth_total_halt}
+        modifier = {
+            pop_growth_speed = -1
+            pop_happiness = -0.1
+        }
+    }
+
+    option = {
+        name = "freedom_of_birth"
+        
+        policy_flags = {freedom_of_birth}
+        modifier = {
+            pop_happiness = 0.02
+        }
+    }
+
+    option = {
+        name = "growth_first"
+        
+        policy_flags = {growth_first}
+        modifier = {
+            pop_growth_speed = 0.07
+        }
+    }
+
+    option = {
+        name = mandatory_growth
+        
+        policy_flags = {mandatory_growth}
+        modifier = {
+            pop_happiness = -0.2
+            pop_growth_speed = 0.5
+        }
+    }
+}
+
+occupation_strength = {
+
+}

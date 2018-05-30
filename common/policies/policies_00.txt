@@ -11,12 +11,19 @@
 #
 ##########################################################################
 
-birth_control_policy = {
+population_regulation_policy = {
 
     option = {
         name = "growth_total_halt"
-        
-        policy_flags = {growth_total_halt}
+
+        valid = {
+            OR = {
+                has_ethic = "ethic_gestalt_consciousness"
+                NOT = { has_ethic = "ethic_fanatic_egalitarian" }
+            }
+        }
+
+        policy_flags = { growth_total_halt }
         modifier = {
             pop_growth_speed = -1
             pop_happiness = -0.1
@@ -26,7 +33,11 @@ birth_control_policy = {
     option = {
         name = "freedom_of_birth"
         
-        policy_flags = {freedom_of_birth}
+        valid = {
+            NOT = { has_ethic = "ethic_gestalt_consciousness" }
+        }
+
+        policy_flags = { freedom_of_birth }
         modifier = {
             pop_happiness = 0.02
         }
@@ -35,20 +46,43 @@ birth_control_policy = {
     option = {
         name = "growth_first"
         
-        policy_flags = {growth_first}
+        valid = {
+            NOT = { has_ethic = "ethic_gestalt_consciousness" }
+        }
+
+        policy_flags = { growth_first }
         modifier = {
             pop_growth_speed = 0.07
         }
     }
 
     option = {
-        name = mandatory_growth
+        name = "mandatory_growth"
         
-        policy_flags = {mandatory_growth}
+        valid = {
+            OR = {
+                has_ethic = "ethic_fanatic_authoritarian"
+                has_ethic = "ethic_authoritarian"
+            }
+        }
+
+        policy_flags = { mandatory_growth }
         modifier = {
             pop_happiness = -0.2
             pop_growth_speed = 0.5
         }
+    }
+
+    option = {
+        name = "gestalt_regulation"
+        
+        valid = {
+            if = {
+                has_ethic = "ethic_gestalt_consciousness"
+            }
+        }
+
+        policy_flags = { gestalt_regulation }
     }
 }
 

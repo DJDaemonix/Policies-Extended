@@ -161,3 +161,62 @@ occupation_enforcement = {
         }
     }
 }
+
+freedom_of_press = {
+
+    potential = {
+        NOT = { has_ethic = "ethic_gestalt_consciousness" }
+    }
+
+    option = {
+        name = "fundamental_freedom"
+
+        active = {
+            NOR = {
+                has_ethic = "ethic_fanatic_authoritarist"
+                has_ethic = "ethic_authoritarist"
+            }
+        }
+
+        modifier = {
+            pop_happiness = 0.1
+            pop_government_ethic_attraction = -0.2
+            pop_ethics_shift_speed_mult = 0.15
+        }
+    }
+
+    option = {
+        name = "executive_freedom"
+        
+        modifier = {
+            pop_ethics_shift_speed_mult = 0.10
+        }
+    }
+
+    option = {
+        name = "state_approval"
+        
+        modifier = {
+            pop_happiness = -0.05
+            pop_government_ethic_attraction = 0.1
+        }
+    }
+
+    option = {
+        name = "state_press"
+
+        active = {
+            NOR = {
+                has_ethic = "ethic_fanatic_egalitarist"
+                has_ethic = "ethic_egalitarist"
+            }
+        }
+
+        modifier = {
+            pop_happiness = -0.15
+            pop_government_ethic_attraction = 0.3
+            pop_ethics_shift_speed_mult = -0.1
+            influence = 1
+        }
+    }
+}

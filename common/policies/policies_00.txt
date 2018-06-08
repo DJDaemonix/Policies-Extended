@@ -13,14 +13,15 @@
 
 population_regulation_policy = {
 
+    potential = {
+        NOT = { has_ethic = "ethic_gestalt_consciousness" }
+    }
+
     option = {
         name = "growth_total_halt"
 
         valid = {
-            OR = {
-                has_ethic = "ethic_gestalt_consciousness"
-                NOT = { has_ethic = "ethic_fanatic_egalitarian" }
-            }
+            NOT = { has_ethic = "ethic_fanatic_egalitarian" }
         }
 
         policy_flags = { growth_total_halt }
@@ -32,10 +33,6 @@ population_regulation_policy = {
 
     option = {
         name = "freedom_of_birth"
-        
-        valid = {
-            NOT = { has_ethic = "ethic_gestalt_consciousness" }
-        }
 
         policy_flags = { freedom_of_birth }
         modifier = {
@@ -45,10 +42,6 @@ population_regulation_policy = {
 
     option = {
         name = "growth_first"
-        
-        valid = {
-            NOT = { has_ethic = "ethic_gestalt_consciousness" }
-        }
 
         policy_flags = { growth_first }
         modifier = {
@@ -71,18 +64,6 @@ population_regulation_policy = {
             pop_happiness = -0.2
             pop_growth_speed = 0.5
         }
-    }
-
-    option = {
-        name = "gestalt_regulation"
-        
-        valid = {
-            if = {
-                has_ethic = "ethic_gestalt_consciousness"
-            }
-        }
-
-        policy_flags = { gestalt_regulation }
     }
 }
 

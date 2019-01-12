@@ -1,0 +1,146 @@
+##########################################################################
+# Empire Policies
+#
+# #####
+#
+# AI:
+# Base AI-weight is 100, if unchanged
+# AI will grab whatever policy-option has the highest weight
+#
+# #####
+#
+##########################################################################
+
+#
+# TODO :
+# Complete AI Weights
+#
+
+pe__population_regulation_policy = {
+
+    potential = {
+        NOT = { has_ethic = "ethic_gestalt_consciousness" }
+    }
+
+    option = {
+        name = "single_child_policy"
+
+        valid = {
+            NOT = { has_ethic = "ethic_fanatic_egalitarian" }
+        }
+
+        policy_flags = { single_child_policy }
+        modifier = {
+            pop_growth_speed = -0.3
+            pop_happiness = -0.1
+        }
+    }
+
+    option = {
+        name = "freedom_of_birth"
+
+        policy_flags = { freedom_of_birth }
+        modifier = {
+            pop_happiness = 0.02
+        }
+
+        ai_weight = {
+            weight = 110
+        }
+    }
+
+    option = {
+        name = "growth_first"
+
+        policy_flags = { growth_first }
+        modifier = {
+            pop_growth_speed = 0.07
+        }
+    }
+
+    option = {
+        name = "mandatory_growth"
+        
+        valid = {
+            OR = {
+                has_ethic = "ethic_fanatic_authoritarian"
+                has_ethic = "ethic_authoritarian"
+
+                has_ethic = "ethic_fanatic_spiritualist"
+            }
+        }
+
+        policy_flags = { mandatory_growth }
+        modifier = {
+            pop_happiness = -0.2
+            pop_growth_speed = 0.5
+        }
+    }
+}
+
+pe__freedom_of_press = {
+
+    potential = {
+        NOT = { has_ethic = "ethic_gestalt_consciousness" }
+    }
+
+    option = {
+        name = "fundamental_freedom"
+
+        valid = {
+            NOR = {
+                has_ethic = "ethic_fanatic_authoritarian"
+                has_ethic = "ethic_authoritarian"
+            }
+        }
+
+        modifier = {
+            pop_happiness = 0.1
+            pop_government_ethic_attraction = -0.1
+            pop_ethics_shift_speed_mult = 0.2
+            pop_factions_influence_produces_mult = 0.25
+        }
+    }
+
+    option = {
+        name = "executive_freedom"
+        
+        modifier = {
+            pop_ethics_shift_speed_mult = 0.10
+            pop_factions_influence_produces_mult = 0.05
+        }
+
+        ai_weight = {
+            weight = 110
+        }
+    }
+
+    option = {
+        name = "state_approval"
+        
+        modifier = {
+            pop_happiness = -0.05
+            pop_government_ethic_attraction = 0.1
+            pop_factions_influence_produces_mult = -0.2
+        }
+    }
+
+    option = {
+        name = "state_press"
+
+        valid = {
+            NOR = {
+                has_ethic = "ethic_fanatic_egalitarian"
+                has_ethic = "ethic_egalitarian"
+            }
+        }
+
+        modifier = {
+            pop_happiness = -0.15
+            pop_government_ethic_attraction = 0.3
+            pop_ethics_shift_speed_mult = -0.2 
+            country_base_influence_produces_add = 1
+            pop_factions_influence_produces_mult = -0.5
+        }
+    }
+}

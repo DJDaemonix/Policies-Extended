@@ -1,0 +1,44 @@
+﻿l_english:
+
+ policy_pe__population_regulation_policy:0 "Population Regulation"
+ policy_pe__population_regulation_policy_desc:0 "(WIP Description)"
+
+
+ single_child_policy_name:0 "Single Child Policy"
+ single_child_policy:0 "Single Child Policy"
+ single_child_policy_desc:0 "(WIP Description)"
+
+ freedom_of_birth_name:0 "Freedom of Birth"
+ freedom_of_birth:0 "Freedom of Birth"
+ freedom_of_birth_desc:0 "(WIP Description)"
+
+ growth_first_name:0 "Growth First"
+ growth_first:0 "Growth First"
+ growth_first_desc:0 "(WIP Description)"
+
+ mandatory_growth_name:0 "Mandatory Growth"
+ mandatory_growth:0 "Mandatory Growth"
+ mandatory_growth_desc:0 "(WIP Description)"
+
+
+
+
+ policy_pe__freedom_of_press:0 "Freedom of Press"
+ policy_pe__freedom_of_press_desc:0 "(WIP Description)"
+
+
+ fundamental_freedom_name:0 "Fundamental Freedom"
+ fundamental_freedom:0 "Fundamental Freedom"
+ fundamental_freedom_desc:0 "(WIP Description)"
+
+ executive_freedom_name:0 "Executive Freedom"
+ executive_freedom:0 "Executive Freedom"
+ executive_freedom_desc:0 "(WIP Description)"
+
+ state_approval_name:0 "State Approval"
+ state_approval:0 "State Approval"
+ state_approval_desc:0 "(WIP Description)"
+
+ state_press_name:0 "State Press"
+ state_press:0 "State Press"
+ state_press_desc:0 "(WIP Description)"

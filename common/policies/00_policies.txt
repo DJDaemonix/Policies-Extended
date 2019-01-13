@@ -87,6 +87,7 @@ pe__freedom_of_press = {
     option = {
         name = "fundamental_freedom"
 
+        policy_flags = { fundamental_freedom }
         valid = {
             NOR = {
                 has_ethic = "ethic_fanatic_authoritarian"
@@ -105,6 +106,7 @@ pe__freedom_of_press = {
     option = {
         name = "executive_freedom"
         
+        policy_flags = { executive_freedom }
         modifier = {
             pop_ethics_shift_speed_mult = 0.10
             pop_factions_influence_produces_mult = 0.05
@@ -118,6 +120,7 @@ pe__freedom_of_press = {
     option = {
         name = "state_approval"
         
+        policy_flags = { state_approval }
         modifier = {
             pop_happiness = -0.05
             pop_government_ethic_attraction = 0.1
@@ -128,6 +131,7 @@ pe__freedom_of_press = {
     option = {
         name = "state_press"
 
+        policy_flags = { state_press }
         valid = {
             NOR = {
                 has_ethic = "ethic_fanatic_egalitarian"

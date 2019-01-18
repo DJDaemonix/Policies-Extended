@@ -1,44 +1,44 @@
 ﻿l_french:
 
  policy_pe__population_regulation_policy:0 "Régulation de la Population"
- policy_pe__population_regulation_policy_desc:0 "(WIP Description)"
+ policy_pe__population_regulation_policy_desc:0 "Les politiques mises en place pour la croissance et les naissances.\n"
 
 
  single_child_policy_name:0 "Politique d'Enfant Unique"
  single_child_policy:0 "Politique d'Enfant Unique"
- single_child_policy_desc:0 "(WIP Description)"
+ single_child_policy_desc:0 "Pour notre bien, il est important de limiter la croissance dès maintenant, afin de nous préserver de problèmes plus tard. Et pour cela, quoi de mieux que d'encourager les ménages à n'avoir qu'un seul progéniteur ? \nAprès tout la dernière chose que nous souhaitons de l'avenir, est qu'il nous apporte une vague considérable de vagabonds...\n\n"
 
  freedom_of_birth_name:0 "Liberté de Naissance"
  freedom_of_birth:0 "Liberté de Naissance"
- freedom_of_birth_desc:0 "(WIP Description)"
+ freedom_of_birth_desc:0 "Personne ne devrait se voir dire quand féconder, où féconder, et si féconder. Il est important de laisser ces choix aux familles elles-même, afin de les laisser élever leurs progénitures dans les meilleures conditions.\n\n"
 
  growth_first_name:0 "La Croissance en Premier"
  growth_first:0 "La Croissance en Premier"
- growth_first_desc:0 "(WIP Description)"
+ growth_first_desc:0 "Il est important de savoir qui va hériter de notre culture. Nous ne pouvons pas permettre la contraception généralisée d'avoir un impact massif sur la croissance de notre population.\n\n"
 
  mandatory_growth_name:0 "Croissance Mandataire"
  mandatory_growth:0 "Croissance Mandataire"
- mandatory_growth_desc:0 "(WIP Description)"
+ mandatory_growth_desc:0 "La survie et la prospérité d'une société dépend de la croissance de sa population. Afin d'assurer notre avenir, il sera inscrit dans les lois que chaque ménage en mesure devra procréer, afin de garantir un avenir lointain où nous ne nous serons pas éteints.\n\n"
 
 
 
 
  policy_pe__freedom_of_press:0 "Liberté de la Presse"
- policy_pe__freedom_of_press_desc:0 "(WIP Description)"
+ policy_pe__freedom_of_press_desc:0 "Les politiques mises en place pour déterminer les libertés accordées à la presse.\n"
 
 
  fundamental_freedom_name:0 "Liberté Fondamentale"
  fundamental_freedom:0 "Liberté Fondamentale"
- fundamental_freedom_desc:0 "(WIP Description)"
+ fundamental_freedom_desc:0 "Pour que la confiance règne entre le gouvernement et le peuple, la liberté de la presse et sa libre expression doivent être reconnues comme un droit fondamental, inscrit dans nos lois et notre constitution.\n\n"
 
  executive_freedom_name:0 "Liberté Exécutive"
  executive_freedom:0 "Liberté Exécutive"
- executive_freedom_desc:0 "(WIP Description)"
+ executive_freedom_desc:0 "La presse est un outil formidable pour informer le peuple de nos avancements, mais parfois se produisent des débordements sur nos limites acceptables. Il est donc parfois nécessaire au gouvernement d'imposer un embargo sur certaines informations...\n\n"
 
  state_approval_name:0 "Approbation de l'Etat"
  state_approval:0 "Approbation de l'Etat"
- state_approval_desc:0 "(WIP Description)"
+ state_approval_desc:0 "Afin de mieux rationner et garder le contrôle des sources d'information, il est d'une nécessité que le gouvernement devienne curateur des médias, permettant de ce fait d'éviter le moindre débordement d'informations, ou même de prise de mauvaises directions...\n\n"
 
  state_press_name:0 "Presse d'Etat"
  state_press:0 "Presse d'Etat"
- state_press_desc:0 "(WIP Description)"
+ state_press_desc:0 "Avec des sources privées à la tête de la distribution d'informations, nous courons le risque constant d'un soudain appel à la haine ou du dévoilement de certains projets maintenus secrets par nos forces armées. Il est donc nécessaire d'éliminer les sources privées, et permettre à l'Etat d'être la seule source d'informations. Désormais, la population est entièrement sous notre contrôle !\n\n"

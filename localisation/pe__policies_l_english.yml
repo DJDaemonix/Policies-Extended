@@ -1,44 +1,44 @@
 ﻿l_english:
 
  policy_pe__population_regulation_policy:0 "Population Regulation"
- policy_pe__population_regulation_policy_desc:0 "(WIP Description)"
+ policy_pe__population_regulation_policy_desc:0 "Policies enacted regarding growth and births.\n"
 
 
  single_child_policy_name:0 "Single Child Policy"
  single_child_policy:0 "Single Child Policy"
- single_child_policy_desc:0 "(WIP Description)"
+ single_child_policy_desc:0 "For our own good, it is important that we limit growth as of now, so to preserve ourselves of problems later on. And for this, what better than encouraging households of raising only one progenitor ? \nAfter all, the last thing we want in the future would be a considerably large wave of homeless people...\n\n"
 
  freedom_of_birth_name:0 "Freedom of Birth"
  freedom_of_birth:0 "Freedom of Birth"
- freedom_of_birth_desc:0 "(WIP Description)"
+ freedom_of_birth_desc:0 "No one should be told when to give birth, where to give birth, if at all give birth. It is imperative we leave these choices to the families themselves, so to let them raise their progenitors within the best conditions.\n\n"
 
  growth_first_name:0 "Growth First"
  growth_first:0 "Growth First"
- growth_first_desc:0 "(WIP Description)"
+ growth_first_desc:0 "It is important to know who will inherit of our culture. We simply cannot permit widespread contraception to have a massive impact on the overall growth of our kind.\n\n"
 
  mandatory_growth_name:0 "Mandatory Growth"
  mandatory_growth:0 "Mandatory Growth"
- mandatory_growth_desc:0 "(WIP Description)"
+ mandatory_growth_desc:0 "The survival and prosperity of a society depends of the development of its population. To ensure a bright future, it will be written within our laws that every capable household ought to procreate, so to ensure a distant future where our kind does not run extinct.\n\n"
 
 
 
 
  policy_pe__freedom_of_press:0 "Freedom of Press"
- policy_pe__freedom_of_press_desc:0 "(WIP Description)"
+ policy_pe__freedom_of_press_desc:0 "Policies enacted to determine overall liberties allowed for press.\n"
 
 
  fundamental_freedom_name:0 "Fundamental Freedom"
  fundamental_freedom:0 "Fundamental Freedom"
- fundamental_freedom_desc:0 "(WIP Description)"
+ fundamental_freedom_desc:0 "For trust to flow between the government and our people, freedom of press and its free speech must be regarded as fundamental rights, engraved in our laws and constitution.\n\n"
 
  executive_freedom_name:0 "Executive Freedom"
  executive_freedom:0 "Executive Freedom"
- executive_freedom_desc:0 "(WIP Description)"
+ executive_freedom_desc:0 "Press is a fantastic tool to inform the people of our advancements, but occasionally, mishaps happen, and also outbreaks of unacceptable information. Therefore it is, sometimes, necessary for the government to embargo a few informations...\n\n"
 
  state_approval_name:0 "State Approval"
  state_approval:0 "State Approval"
- state_approval_desc:0 "(WIP Description)"
+ state_approval_desc:0 "To better ration and keep control of information sources, it is of necessity for the goverment to become curator of the press, permitting thereby to immediately prevent any information leak, or even drifting to wrong directions...\n\n"
 
  state_press_name:0 "State Press"
  state_press:0 "State Press"
- state_press_desc:0 "(WIP Description)"
+ state_press_desc:0 "With private sources at the head of information distribution, we constantly run the rish of a sudden call to hate, or a leak on certain projects kept \"state-secret\" by our armed forces. It is therefore necessary to eliminate private sources, and allow the State to be the only source. Now, the population is under our control !\n\n"

@@ -1,7 +1,7 @@
 ﻿l_french:
 
  policy_pe__population_regulation_policy:0 "Régulation de la Population"
- policy_pe__population_regulation_policy_desc:0 "Les politiques mises en place pour la croissance et les naissances.\n\n"
+ policy_pe__population_regulation_policy_desc:0 "Les politiques mises en place pour la croissance et les naissances.\n"
 
 
  single_child_policy_name:0 "Politique d'Enfant Unique"
@@ -24,7 +24,7 @@
 
 
  policy_pe__freedom_of_press:0 "Liberté de la Presse"
- policy_pe__freedom_of_press_desc:0 "Les politiques mises en place pour déterminer les libertés accordées à la presse."
+ policy_pe__freedom_of_press_desc:0 "Les politiques mises en place pour déterminer les libertés accordées à la presse.\n"
 
 
  fundamental_freedom_name:0 "Liberté Fondamentale"
@@ -41,4 +41,4 @@
 
  state_press_name:0 "Presse d'Etat"
  state_press:0 "Presse d'Etat"
- state_press_desc:0 "Avec des sources privées à la tête de la distribution d'informations, nous courons le risque constant d'un soudain appel à la haine ou du dévoilement de certains projets maintenus secrets par nos forces armées. Il est donc nécessaire d'éliminer les sources privées, et permettre à l'Etat d'être la seule source d'informations. Désormais, la population est entièrement sous notre contrôle !"
+ state_press_desc:0 "Avec des sources privées à la tête de la distribution d'informations, nous courons le risque constant d'un soudain appel à la haine ou du dévoilement de certains projets maintenus secrets par nos forces armées. Il est donc nécessaire d'éliminer les sources privées, et permettre à l'Etat d'être la seule source d'informations. Désormais, la population est entièrement sous notre contrôle !\n\n"

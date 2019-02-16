@@ -1,0 +1,44 @@
+﻿l_german:
+
+ policy_pe__population_regulation_policy:0 "Bevölkerungs Regulierung"
+ policy_pe__population_regulation_policy_desc:0 "Politk im Hinbezug auf Wachstum und Geburten in Kraft getreten.\n"
+
+
+ single_child_policy_name:0 "Ein-Kind Politik"
+ single_child_policy:0 "Ein-Kind Politik"
+ single_child_policy_desc:0 "Für unser eigenes Wohlergehen ist es wichtig das wir unser Wachstum von heute an begrenzen, um uns vor zukünftigen Problemen zu schützen. Was wäre also besser als Haushalte dazu anzuregen nur einen einzigen Nachfahren großzuziehen ? \nLetztendlich ist das letze was wir in der Zukunft wollen eine bedenklich große Menge an Obdachlosen...\n\n"
+
+ freedom_of_birth_name:0 "Geburts Recht"
+ freedom_of_birth:0 "Geburts Recht"
+ freedom_of_birth_desc:0 "Niemandem sollte vorgeschrieben werden wann ein Kind geboren werden soll, wo es geboren werden soll, oder überhaupt vorgeschrieben bekommen eines auf Welt zu bringen. Es ist notwendig das wir diese Entscheidungen den Familien selbst überlassen, sodass sie Ihre Nachfahren unter bestmöglichen Bedingungen großziehen können.\n\n"
+
+ growth_first_name:0 "Wachstum an erster Stelle"
+ growth_first:0 "Wachstum an erster Stelle"
+ growth_first_desc:0 "Es ist wichtig dass wir wissen wer unsere Kultur erben wird. Wir können einfach keine großflächige Verhütung Einfluss auf den Wachstum unserer gesamten Art nehmen lassen.\n\n"
+
+ mandatory_growth_name:0 "Verpflichtende Fortpflanzung"
+ mandatory_growth:0 "Verpflichtende Fortpflanzung"
+ mandatory_growth_desc:0 "Das Überleben und der Wohlstand unserer Gesellschaft hängen von der Entwicklung ihrer Population ab. Um eine strahlende Zukunft zu gewährleisten, werden unsere Gesetze nun vorschreiben das jeder geeignete Haushalt sich fortzupflanzen hat um eine Zukunft zu sichern in der unsere Art nicht ausstirbt.\n\n"
+
+
+
+
+ policy_pe__freedom_of_press:0 "Pressefreiheit"
+ policy_pe__freedom_of_press_desc:0 "Politiken sind in Kraft getreten um alle Freiheiten der Presse zu bestimmen.\n"
+
+
+ fundamental_freedom_name:0 "Grundlegende Freiheit"
+ fundamental_freedom:0 "Grundlegende Freiheit"
+ fundamental_freedom_desc:0 "Damit das Vertrauen zwischen Regierung und Volk fließen kann,müssen die Pressefreiheit sowie das Recht auf freie Meinungsäußerung als grundlegende Rechte angesehen werden, garantiert bei unseren Gesetzten und der Konstitution.\n\n"
+
+ executive_freedom_name:0 "Ausführende Freiheit"
+ executive_freedom:0 "Ausführende Freiheit"
+ executive_freedom_desc:0 "Die Presse ist ein fantastisches Werkzeug um die Leute über unsere Vortschritte zu informieren, aber gelegentlich passieren Missgeschicke sowie Ausbrüche von unakzeptierbaren Informationen in die Außenwelt. Deswegen ist es ab und zu notwendig für die Regierung ein paar Informationen mit einem Embargo zu versehen...\n\n"
+
+ state_approval_name:0 "Zustimmung des Staates"
+ state_approval:0 "Zustimmung des Staates"
+ state_approval_desc:0 "Um eine bessere Kontrolle über die Informationsquellen behalten zu können, ist es von ungemeiner Wichtigkeit das die Regierung die Kuratoren der Presse werden, und sich damit unverzüglich erlauben jedes weitere Informationsleck zu verhindern, oder in falsche Richtungen abzudriften ...\n\n"
+
+ state_press_name:0 "Staatspresse"
+ state_press:0 "Staatspresse"
+ state_press_desc:0 "Mit privaten Quellen an oberster Stelle der Informationsverteilung, laufen wir ständig Gefahr einen plötzlichen Aufruf zum Hass auszulösen, oder ein Leck bei bestimmten Projekten \"state-secret\" von unseren Streitkräften zu riskieren. Deswegen ist es wichtig alle privaten Quellen zu eleminieren und dem Staat zu erlauben die einzige Quelle zu sein. Nun steht die Bevölkerung unter unserer Kontrolle !\n\n"
